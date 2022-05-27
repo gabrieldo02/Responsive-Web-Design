@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <h1 id="title">Survey Form<h1>
+</head>
+  <p id="description">KFC or Popeyes?</p>
+
+  <form id="survey-form">
+    <label id="name-label">Name: <input id="name" type="text" placeholder="Colonel Sanders" required></label>
+    <label id="email-label">Email: <input id="email" type="email" placeholder="colonel@email.com" required></label>
+    <label id="number-label">Rating: <input id="number" type="number" min=0 max=10 placeholder="10?"></label>
+
+      <fieldset>
+        <label><input type="radio" value="KFC button" name="KFC button"/> KFC</label>
+        <label><input type="radio" value="Popeyes button" name="KFC button"/> Popeyes</label>
+        <label><input type="checkbox" value="KFC checkbox"> KFC</label>
+        <label><input type="checkbox" value="Popeyes checkbox"> Popeyes</label>
+      </fieldset>
+    
+    <label>
+      <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="KFC dropdown">KFC</option>
+            <option value="Popeyes dropdown">Popeyes</option>
+      </select>
+    <label>Comments?
+      <textarea></textarea>
+      </label>
+
+    <input id="submit" type="submit" value="Submit" type="submit">
+    </form>
+</html>
