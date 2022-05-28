@@ -1,0 +1,20 @@
+#image {
+  display: block;
+  max-width: 100%;
+}
+
+.header {
+  text-align: center;
+}
+
+.img-caption {
+  text-align: center;
+}
+
+.tribute-info {
+  text-align: center;
+}
+
+.tribute-link {
+  text-align: center;
+}
